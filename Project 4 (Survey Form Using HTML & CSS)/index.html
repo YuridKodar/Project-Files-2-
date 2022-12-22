@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <h1>
+            Employee Satisfaction Survey
+        </h1>
+        <hr>
+        <div class="details">
+           <label>Name</label> <br><br>
+           <input type="text" placeholder="First Name">
+           <input type="text" placeholder="Last Name" class="align"> <br><br><br>
+           <label>Email</label> <br><br>
+           <input type="email" name="email" placeholder="Enter Your Email Here">
+           <div class="dates">
+                <label id="date">Date</label> <br><br>
+                <input type="date" name="date" placeholder="Date" class="alignment">
+           </div>
+        </div>
+        <div class="radio">
+            <p>How would you describe your overall level of job satisfaction</p> <br>
+            <input type="radio" name="size" id=""><span>Very Satisfied</span> <br><br>
+            <input type="radio" name="size" id=""><span>Somewhat Satisfied</span> <br><br>
+            <input type="radio" name="size" id=""><span>Neutral</span> <br><br>
+            <input type="radio" name="size" id=""><span>Somewhat Dissatisfied</span> <br><br>
+            <input type="radio" name="size" id=""><span>Very Dissatisfied</span> <br><br>
+            <p> How would you rate the following</p><br><br>
+            <table>
+                <body>
+                    <tr>
+
+                        <th></th>
+                        <th>Very Poor</th>
+                        <th>Poor</th>
+                        <th>Average</th>
+                        <th>Good</th>
+                        <th>Excellent</th>
+                    </tr>
+                    <tr>
+
+                        <label><th>Salary</th></label>
+                        <td><input type="radio" name="salary"></td>
+                        <td><input type="radio" name="salary"></td>
+                        <td><input type="radio" name="salary"></td>
+                        <td><input type="radio" name="salary"></td>
+                        <td><input type="radio" name="salary"></td>
+                    </tr>
+                    <tr>
+                        <label><th>Overall Benefits</th></label>
+                        <td><input type="radio" name="benefits"></td>
+                        <td><input type="radio" name="benefits"></td>
+                        <td><input type="radio" name="benefits"></td>
+                        <td><input type="radio" name="benefits"></td>
+                        <td><input type="radio" name="benefits"></td>
+                </tr>
+                    <tr>
+                        <label><th>Health Benefits</th></label>
+                        <td><input type="radio" name="health"></td>
+                        <td><input type="radio" name="health"></td>
+                        <td><input type="radio" name="health"></td>
+                        <td><input type="radio" name="health"></td>
+                        <td><input type="radio" name="health"></td>
+                    </tr>
+
+                    <tr>
+                        <label><th>Physical Work Environment</th></label>
+                        <td><input type="radio" name="physical"></td>
+                        <td><input type="radio" name="physical"></td>
+                        <td><input type="radio" name="physical"></td>
+                        <td><input type="radio" name="physical"></td>
+                        <td><input type="radio" name="physical"></td>
+                    </tr>
+
+                    <tr>
+                        <label><th>Senior Leadership</th></label>
+                        <td><input type="radio" name="senior"></td>
+                        <td><input type="radio" name="senior"></td>
+                        <td><input type="radio" name="senior"></td>
+                        <td><input type="radio" name="senior"></td>
+                        <td><input type="radio" name="senior"></td>
+                    </tr>
+
+                    <tr>
+                        <label><th>Individual Management</th></label>
+                        <td><input type="radio" name="individual"></td>
+                        <td><input type="radio" name="individual"></td>
+                        <td><input type="radio" name="individual"></td>
+                        <td><input type="radio" name="individual"></td>
+                        <td><input type="radio" name="individual"></td>
+                    </tr>
+
+                    <tr>
+                        <label><th>Performance Feedback</th></label>
+                        <td><input type="radio" name="performance"></td>
+                        <td><input type="radio" name="performance"></td>
+                        <td><input type="radio" name="performance"></td>
+                        <td><input type="radio" name="performance"></td>
+                        <td><input type="radio" name="performance"></td>
+                    </tr>
+
+                    <tr>
+                        <label><th>Employee Evaluations</th></label>
+                        <td><input type="radio" name="employee"></td>
+                        <td><input type="radio" name="employee"></td>
+                        <td><input type="radio" name="employee"></td>
+                        <td><input type="radio" name="employee"></td>
+                        <td><input type="radio" name="employee"></td>
+                    </tr>
+
+                    <tr>
+                        <label><th>Recognition</th></label>
+                        <td><input type="radio" name="recognition"></td>
+                        <td><input type="radio" name="recognition"></td>
+                        <td><input type="radio" name="recognition"></td>
+                        <td><input type="radio" name="recognition"></td>
+                        <td><input type="radio" name="recognition"></td>
+                    </tr>
+
+                    <tr>
+                        <label><th>Training Opportunities</th></label>
+                        <td><input type="radio" name="training"></td>
+                        <td><input type="radio" name="training"></td>
+                        <td><input type="radio" name="training"></td>
+                        <td><input type="radio" name="training"></td>
+                        <td><input type="radio" name="training"></td>
+                    </tr>
+
+                    <tr>
+                        <label><th>Opportunities For Advancement</th></label>
+                        <td><input type="radio" name="opportunities"></td>
+                        <td><input type="radio" name="opportunities"></td>
+                        <td><input type="radio" name="opportunities"></td>
+                        <td><input type="radio" name="opportunities"></td>
+                        <td><input type="radio" name="opportunities"></td>
+                    </tr>
+                </body>
+            </table>
+        </div>  
+        <div class="questions">
+            <label>Do you feel valued at work? </label> <br><br>
+            <input type="radio" name="feel" id=""><span> Yes</span> <br><br>
+            <input type="radio" name="feel" id=""><span> No</span> <br><br>
+
+            <label>Do you have the resources you need to perform your job well? </label> <br> <br>
+            <input type="radio" name="resources" id=""><span> Yes</span> <br><br>
+            <input type="radio" name="resources" id=""><span> No</span> <br><br>
+
+            <label>Does your job cause you stress or anxiety?</label> <br><br>
+            <input type="radio" name="stress" id=""><span> Yes</span> <br><br>
+            <input type="radio" name="stress" id=""><span> No</span> <br><br>
+
+            <label>Are sufficient efforts being made to solicit colleague opinions and feedback?</label> <br> <br>
+            <input type="radio" name="efforts" id=""><span> Yes</span> <br><br>
+            <input type="radio" name="efforts" id=""><span> No</span>  <br><br>
+        </div>
+
+        <div class="feedback">
+            <label>Please Provide Any Additional Feedback</label>  <br><br>
+            <textarea name="feedback" id="" cols="68" rows="8"></textarea>
+        </div>
+
+        <hr> <br>
+         <div class="btn"></div>
+         <button>Submit</button>
+        
+    </form>
+</body>
+</html>
